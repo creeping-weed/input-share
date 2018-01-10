@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="box">
+        <h3>用户注册</h3>
+        <div class="agt">
+            <h4>用户协议内容：</h4>
+            <p>
+                自己写，自己写，自己写，自己写，自己写，自己写，
+                自己写，自己写，自己写，自己写，自己写，自己写，
+                自己写，自己写，自己写，自己写，自己写，自己写，
+                自己写，自己写，自己写，自己写，自己写，自己写，
+                自己写，自己写，自己写，自己写，自己写，自己写，
+                自己写，自己写，自己写，自己写，自己写，自己写，
+            </p>
+        </div>
+        <div class="ck">
+            <input type="checkbox" id="ck">我同意此协议
+        </div>
+        <div class="body">
+            <form>
+                <ul>
+                    <li id="username">
+                        用户昵称：<input type="text" name="username">
+                        <span class="prompt"></span>
+                    </li>
+                    <li id="password">
+                        用户密码：<input type="password" name="password1">
+                        <span class="prompt"></span>
+                    </li>
+                    <li id="password2">
+                        确认密码：<input type="password" name="password2">
+                        <span class="prompt"></span>
+                    </li>
+                    <li id="birthday">
+                        出生日期：
+                        <select id="year">
+
+                        </select>年
+                        <select id="month">
+                            <option>1</option>
+                        </select>月
+                        <select id="day">
+                            <option>1</option>
+                        </select>日
+                    </li>
+                    <li id="mail">
+                        用户邮箱：<input type="text" name="mail">
+                        <span class="prompt"></span>
+                    </li>
+                    <li id="code">
+                        验证码：&nbsp;&nbsp;&nbsp;<input type="text" name="code">
+                        <span class="refresh"><img src="images/refresh.png" id="img"></span>
+                        <span id="keyCode"></span>
+                        <span class="prompt"></span>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+<script src="js/index.js"></script>
+</body>
+</html>
