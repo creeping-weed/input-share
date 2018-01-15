@@ -33,7 +33,7 @@ for(var i=1;i<=12;i++){
     month.appendChild(option2);
 }
 var day=document.getElementById('day');
-month.onblur=function(){
+day.onfocus=function(){
    var days=getDay(years.value,month.value);
     day.innerHTML='';
     for(var i=1;i<=days;i++){
